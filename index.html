@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Precious Salvador | Portfolio</title>
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Script -->
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <h1>Precious Salvador</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#showreel">Showreel</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+<section class="section hero" id="home">
+  <div class="hero-content">
+    <h2>Precious Salvador</h2>
+    <p> Illustrator & Animator</p>
+    <h4>2025</h4>
+    <a href="#portfolio" class="hero-btn">View My Work</a>
+
+    <p> I’m an illustrator, who creates anime style artworks.
+My art style is a semi-realistic with rough brushstrokes.  </p>
+  </div>
+</section>
+
+
+  <!-- Showreel Section -->
+<section class="section showreel" id="showreel">
+  <div class="container">
+    <h2 class="section-title">Showreel</h2>
+    <p class="section-subtitle">A glimpse of my animation and illustration work</p>
+    <p class="section-subtitle">These works were made during the past semester. A 2D animation</p>
+
+    <!-- GIF 1 -->
+    <div class="showreel-video">
+      <img src="vid/personal anim.gif" alt="Personal Animation" class="showreel-gif">
+    </div>
+
+    <!-- GIF 2 -->
+    <div class="showreel-video">
+      <img src="vid/happy walk cycle.gif" alt="Happy Walk Cycle" class="showreel-gif">
+    </div>
+
+    <!-- GIF 3 -->
+    <div class="showreel-video">
+      <img src="vid/walk cycle.gif" alt="Walk Cycle" class="showreel-gif">
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Portfolio Section -->
+  <section class="section" id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+
+      <div class="portfolio-item">
+        <a href="img/jinx.jpg" class="lightbox-trigger">
+          <img src="img/jinx.jpg" alt="Jinx fan art">
+        </a>
+        <h3>Jinx (fan art)</h3>
+        <p>Jinx (Series: Arcane)</p>
+      </div>
+
+      <div class="portfolio-item">
+        <a href="img/Ssephiroth.jpg" class="lightbox-trigger">
+          <img src="img/Ssephiroth.jpg" alt="sephiroth fan art">
+        </a>
+        <h3>Sephiroth (illustration)</h3>
+        <p>Sephiroth (Final Fantasy VII)</p>
+      </div>
+
+      <div class="portfolio-item">
+        <a href="img/portrait.jpg" class="lightbox-trigger">
+          <img src="img/portrait.jpg" alt="portrait fan art">
+        </a>
+        <h3>Portrait (commission)</h3>
+        <p>A digital portrait painting of a student</p>
+      </div>
+    </div>
+
+    <!-- Hidden Portfolio Items -->
+    <div id="more-items" class="portfolio-grid" style="display: none;">
+      <div class="portfolio-item">
+        <img src="img/bella.jpg" alt="Bella artwork">
+        <h3>Bella</h3>
+        <p>Personal illustration piece</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="img/poster.jpg" alt="Profile art">
+        <h3>Profile Art</h3>
+        <p>Stylized profile portrait</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="img/study art.jpg" alt="Study art">
+        <h3>Study Art</h3>
+        <p>Practice lighting and form</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="img/cloud Strife.jpg" alt="Cloud Strife">
+        <h3>Cloud Strife</h3>
+        <p>Final Fantasy VII fan art</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="img/ez mil.jpg" alt="Ex Mil character">
+        <h3>Ex Mil</h3>
+        <p>Character concept</p>
+      </div>
+    </div>
+
+    <!-- Toggle Button -->
+    <div class="toggle-container">
+      <button class="toggle-btn" onclick="togglePortfolio()">See More</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="img/profiles.jpg" alt="Precious Salvador" class="about-image">
+      <p>
+        I am an artist from Baguio City. Philippines
+
+My arts are digital work specifically an anime style of artworks.
+
+Creating art is a a way for me to tell a story not by words but by art. 
+
+My Art usually composed of portraits (real people /anime). 
+I like to explore the love and hate in my artworks, because it affects more the audience's emotions.
+ Digital tools for me is easy to use due to it being convenient than traditional tools.
+      </p>
+      <div class="program-icons">
+  <h3>Programs I Use</h3>
+
+  <div class="icons-row">
+    <img src="img/csp logo.png" alt="Clip Studio Paint" class="program-icon">
+    <img src="img/krita logo.jpeg" alt="Krita" class="program-icon">
+    <img src="img/medibang logo.jpeg" alt="MediBang Paint Pro" class="program-icon">
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+      
+      <!-- Social Media -->
+      <div class="contact-socials">
+  <div class="social-item">
+    <i class="fab fa-facebook-f"></i>
+    <span>@PretsDigitalArts</span>
+  </div>
+
+  <div class="social-item">
+    <i class="fab fa-instagram"></i>
+    <span>@pmsa.rt</span>
+  </div>
+
+  <div class="social-item">
+    <i class="fab fa-twitter"></i>
+    <span>@pretsart140</span>
+  </div>
+</div>
+
+
+
+
+      <!-- Contact Form -->
+      <form>
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" placeholder="Your first name" required>
+
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" placeholder="Your last name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Precious Salvador. All rights reserved.
+  </footer>
+
+</body>
+</html>
